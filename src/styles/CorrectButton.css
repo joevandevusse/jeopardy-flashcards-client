@@ -1,0 +1,27 @@
+.correct {
+  font-size: 1.2em;
+  border: none;
+  width: 200px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ecf0f1;
+  box-shadow: 0px 6px green;
+  background: #308d29;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.correct:active{
+  border: none;
+  position: relative;
+  top: 3px;
+  box-shadow: 0px 0px green;
+  background: green;
+}
+
+.correctContainer{
+  display: inline-block;
+  margin-left: 315px;
+}

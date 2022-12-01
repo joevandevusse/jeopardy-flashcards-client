@@ -1,0 +1,63 @@
+.card-container {
+  cursor: pointer;
+  height: 400px;
+  width: 680px;
+  perspective: 680px;
+  position: relative;
+  margin: auto;
+  transition: ease-in;
+}
+
+.card {
+  height: 400px;
+  width: 680px;
+  position: absolute;
+  border: 1px solid #300;
+  transform-style: preserve-3d;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.card .front {
+  height: 400px;
+  width: 680px;
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  background-color: #9C9C9C;
+}
+
+.card .back {
+  height: 400px;
+  width: 680px;
+  text-align: center;
+  transform: rotateY(180deg);
+  background-color: #9C9C9C;
+}
+
+.clue{
+  color: white;
+  font-size: 1.2em;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#value{
+  color: #14FF00;
+}
+
+#category{
+  color: #002CFF;
+}
+
+.answer{
+  color: white;
+  font-size: 2em;
+  padding-top: 30%;
+}
